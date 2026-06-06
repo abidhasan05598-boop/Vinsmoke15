@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Unordered List -->
+    <ul>
+        <li>Home</li>
+        <li>About Uss</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol>
+        <li>Phone</li>
+        <li>Pc</li>
+        <li>Laptop</li>
+    </ol>
+
+    <!-- Table List -->
+    <table>
+        <caption>Student Report</caption>
+        <thead>
+            <tr>
+                <th colspan="3">Name</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hasnain Ahamed Abir</td>
+                <td colspan="3">A+</td>
+            </tr>
+            <tr>
+                <td>Afrin Haque Adiba</td>
+                <td colspan="3">A+</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Form Tag -->
+    <form action=".\submit" method="POST">
+
+        <!-- Username Input -->
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="usename" name="username" required>
+        </div>
+
+        <!-- Password Input -->
+        <div>
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="password" required>
+        </div>
+
+        <!-- Dropdown Button -->
+        <div>
+            <label for="role">Account Type:</label>
+            <select name="account_type" id="role">
+                <option value="personal">Personal</option>
+                <option value="bussiness">Bussiness</option>
+            </select>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit">Create Account</button>
+    </form>
+
+
+    <!-- Video Tag -->
+   <video src="video.mp4" autoplay muted controls>Sorry this video cant load</video>
+</body>
+
+</html>
